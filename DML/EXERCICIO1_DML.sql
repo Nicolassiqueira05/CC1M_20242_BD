@@ -1,0 +1,16 @@
+/*alterações*/
+
+INSERT INTO participantes(NUM_INSCRICAO, CPF, NOME, DATA_NASC, EMPRESA) VALUES
+(1, '987.765.432-10', 'JOÃO DAS COUVES', '2000-01-01', 'FIRMA MILIONÁRIA'),
+(2, '765.432.109-87', 'MARIA DAS NEVES', '1986-09-11', 'COSTURAS DA MARIA'),
+(3, '567.432.123-65', 'JOSÉ DE SOUZA', '1976-10-27', 'PADARIA DO ZÉ');
+
+/*updates*/
+
+UPDATE participantes
+SET NOME = 'JOÃO DOS ALFACES'
+WHERE NUM_INSCRICAO = 1;
+
+/*seleções*/
+
+SELECT * FROM participantes;
